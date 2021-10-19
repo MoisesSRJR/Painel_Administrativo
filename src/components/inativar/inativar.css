@@ -1,0 +1,110 @@
+#fundo-inativar{
+    
+    background-color: white;
+    height: 30%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    border-radius: 15px;
+}
+#divisao-inativar{
+    display:flex;
+    width: 90%;
+    height: 21%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#title-inativar{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FE9800;
+}
+#bt-x{
+    font-size: 30px;
+    color: #c1c1c1;
+    border:none;
+    background-color: white;
+}
+#linha-inativar{
+    display: flex;
+    border-bottom: 1px solid #C1C1C1;
+    width: 100%;
+    margin-left: 0%; 
+}
+#fundo-alert{
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items:flex-end;
+}
+#fundo-alert2{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#alert{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #C1C1C1;
+}
+#alert2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #FE9800;
+   
+}
+#fundo-bt-alert{
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items:flex-end;
+    gap: 10px;
+}
+#bt-inativar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 28px;
+    background: #FE9800;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+}
+#bt-cancel{
+    width: 100px;
+    height: 28px;
+    background: #C1C1C1;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border: none;
+}

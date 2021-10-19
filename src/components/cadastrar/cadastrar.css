@@ -1,0 +1,243 @@
+#fundo-cadastrar2{
+    
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+#divisao1{
+    display:flex;
+    width: 90%;
+    height: 11%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#title-cadastrar{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FE9800;
+}
+#bt-x{
+    font-size: 30px;
+    color: #c1c1c1;
+    border:none;
+    background-color: white;
+}
+#linha2{
+    display: flex;
+    border-bottom: 1px solid #C1C1C1;
+    width: 100%;
+    margin-left: 0%; 
+}
+
+#linha3{
+    display: flex;
+    border-bottom: 1px solid #C1C1C1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+#linha4{
+    display: flex;
+    border-bottom: 1px solid #C1C1C1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+#divisao2{
+    display:flex;
+    width: 76%;
+    height: 12%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content:space-between ;
+    align-items: center;
+    line-height: 25px;
+}
+#sub-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+#digite1{
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 15px;
+    outline: none;
+    width: 88px;
+    height: 33px;
+    
+}
+#digite2{
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 15px;
+    outline: none;
+    width: 188px;
+    height: 33px;
+    
+}
+#digite3{
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 15px;
+    outline: none;
+    width: 251px;
+    height: 33px;
+}
+#digite4{
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 15px;
+    outline: none;
+    width: 361px;
+    height: 33px;
+}
+#digite5{
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 15px;
+    outline: none;
+    width: 445px;
+    height: 33px;
+}
+
+#divisao3{
+    display:flex;
+    width: 58%;
+    height: 12%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-between ;
+    align-items: center;
+    line-height: 25px;
+}
+#x-img{
+    
+    background: #FE9800;
+    border-radius: 10px;
+    color: white;
+    width: 33px;
+    height: 33px;
+    border: none;
+    
+}
+
+input[type="file"] {
+    display: none;
+}
+#bt-label{
+    display: flex;
+    background: #FE9800;
+    border-radius: 15px;
+    color: white;
+    width: 151px;
+    height: 33px;
+    border: none;
+    font-size: 13px;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+#divisao4{
+    display:flex;
+    width: 90%;
+    height: 12%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    justify-content:space-between ;
+    align-items: center;
+    line-height: 25px;
+}
+
+select {
+    color: #C1C1C1;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  #divisao5{
+    display:flex;
+    width: 68%;
+    height: 8%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content:space-between ;
+    align-items: center;
+    line-height: 25px;
+}
+#divisao6{
+    display:flex;
+    width: 32%;
+    height: 8%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-between ;
+    align-items: center;
+    line-height: 25px;
+}
+#bt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 153px;
+    height: 38px;
+    background: #FE9800;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+}
+#bt-voltar{
+    width: 153px;
+    height: 38px;
+    background: #C1C1C1;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border: none;
+}
+#checkbox{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #949494;
+}

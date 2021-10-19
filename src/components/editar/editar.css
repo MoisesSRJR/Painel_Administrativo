@@ -1,0 +1,19 @@
+#bt-editar{
+    display: flex;
+    width: 30px;
+    height: 30px;  
+    justify-content: center;
+    text-align: center;
+    border: none;
+    background-color: white;
+}
+
+#bt-excluir{
+    display: flex;
+    width: 30px;
+    height: 30px;  
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+}

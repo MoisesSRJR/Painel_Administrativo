@@ -1,0 +1,181 @@
+body{
+    
+    background-color: #fe980044;
+    height: 100vh;
+    width: 100%;
+    
+}
+#fundo-painel{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    border-radius: 15px;
+}
+#fundo-title{
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 1%;
+    align-items: center;
+    
+}
+#title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 32px;
+    color: #FE9800;
+    margin-left: 1%; 
+       
+}
+#bt-cadastar{
+    
+    width: 236px;
+    height: 41px;  
+    background: #FE9800;
+    border-radius: 15px;
+    margin-left: 65%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+    #pesquisa{
+    width: 250px;
+    height: 41px;
+    margin-left: 75%;
+    background: #EFEFEF;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+#lupinha{
+    margin-left: 150px;
+}
+#fundo-filtros{
+    display: flex;
+    width: 85%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 3%;
+    justify-content: space-between;
+    
+}
+#filtro{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C9C9C9;
+
+}
+#linha{
+    border-bottom: 2px solid #AAAAAA;
+    width: 90%;
+    margin-left: 5%;
+}
+#fundo-cadastro{    
+    width: 90%;
+    margin-left: 5%;
+    height:70% ;
+    margin-top: 1%;
+    overflow-x: auto; 
+     
+}
+#separar-cadastros{
+    
+    display: flex;
+    width: 96%;
+    height: 18%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E2E2E2 ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #656565;
+}
+#img-mercado{
+    width: 5%;
+    height: 70%;
+    margin-left: 0.5%;
+    border-radius: 10px;
+    
+}
+
+#nome{
+    width: 15%;
+    height: 70%;
+    margin-left: 0.5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#cnpj{
+    width: 14%;
+    margin-left: 3%;
+}
+#data{
+    width: auto;
+    margin-left: 9%;
+    
+}
+#status{
+    width: 9%;
+    height: 35%;
+    margin-left: 13%;
+    text-align: center;
+    
+}
+#botoes{
+    display: flex;
+    justify-content: space-between;
+    width: 7%;
+    margin-left: 9.5%;
+    text-align: center;
+    
+}
+#ativo{
+    width: 90%;
+    height: 97%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #60E44A;
+    border-radius: 15px;
+    border: 1px solid #60E44A;
+    background-color: white;
+}
+
+#inativo{
+    width: 90%;
+    height: 97%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #F94D4D;
+    border-radius: 15px;
+    border: 1px solid #F94D4D;
+    background-color: white;
+}
